@@ -1,7 +1,5 @@
 name: gold-report
 on:
-  schedule:
-    - cron: "*/15 * * * *"   # runs every 15 mins
   workflow_dispatch:
 jobs:
   run:
